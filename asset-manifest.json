@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/snehalatasahu/notice-board-frontend/static/css/main.28d88270.chunk.css",
+    "main.js": "/snehalatasahu/notice-board-frontend/static/js/main.2a57592f.chunk.js",
+    "main.js.map": "/snehalatasahu/notice-board-frontend/static/js/main.2a57592f.chunk.js.map",
+    "runtime-main.js": "/snehalatasahu/notice-board-frontend/static/js/runtime-main.a35d9959.js",
+    "runtime-main.js.map": "/snehalatasahu/notice-board-frontend/static/js/runtime-main.a35d9959.js.map",
+    "static/js/2.411f45cc.chunk.js": "/snehalatasahu/notice-board-frontend/static/js/2.411f45cc.chunk.js",
+    "static/js/2.411f45cc.chunk.js.map": "/snehalatasahu/notice-board-frontend/static/js/2.411f45cc.chunk.js.map",
+    "index.html": "/snehalatasahu/notice-board-frontend/index.html",
+    "precache-manifest.9863445d7b8ef6c9e7f0fd9a08bcf671.js": "/snehalatasahu/notice-board-frontend/precache-manifest.9863445d7b8ef6c9e7f0fd9a08bcf671.js",
+    "service-worker.js": "/snehalatasahu/notice-board-frontend/service-worker.js",
+    "static/css/main.28d88270.chunk.css.map": "/snehalatasahu/notice-board-frontend/static/css/main.28d88270.chunk.css.map",
+    "static/js/2.411f45cc.chunk.js.LICENSE.txt": "/snehalatasahu/notice-board-frontend/static/js/2.411f45cc.chunk.js.LICENSE.txt",
+    "static/media/Background.jpg": "/snehalatasahu/notice-board-frontend/static/media/Background.d44a30d6.jpg",
+    "static/media/achievement.jpg": "/snehalatasahu/notice-board-frontend/static/media/achievement.5917c0d6.jpg",
+    "static/media/activity.jpg": "/snehalatasahu/notice-board-frontend/static/media/activity.3f9c600e.jpg",
+    "static/media/exam.jpg": "/snehalatasahu/notice-board-frontend/static/media/exam.3b943be9.jpg",
+    "static/media/index.css": "/snehalatasahu/notice-board-frontend/static/media/image.da4578b5.jpg",
+    "static/media/logo.png": "/snehalatasahu/notice-board-frontend/static/media/logo.e04d5a28.png",
+    "static/media/other.jpg": "/snehalatasahu/notice-board-frontend/static/media/other.95609bf0.jpg",
+    "static/media/placement.jpg": "/snehalatasahu/notice-board-frontend/static/media/placement.a3d7fda5.jpg",
+    "static/media/scholarship.jpg": "/snehalatasahu/notice-board-frontend/static/media/scholarship.dd32a56b.jpg",
+    "static/media/whatsapp icon.svg": "/snehalatasahu/notice-board-frontend/static/media/whatsapp icon.ca6e9b9b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a35d9959.js",
+    "static/js/2.411f45cc.chunk.js",
+    "static/css/main.28d88270.chunk.css",
+    "static/js/main.2a57592f.chunk.js"
+  ]
+}
