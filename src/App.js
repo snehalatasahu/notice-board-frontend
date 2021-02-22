@@ -1,25 +1,41 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import NavbarTop from "./components/NavbarTop";
+import background from "./Background.jpg";
+import { Container } from 'reactstrap';
+import CardSection from "./components/CardSection";
+import { BrowserRouter as Router, Switch, Route, Link, Redirect} from "react-router-dom";
+import NoticeView from "./components/NoticeView"
+import NavbarBottom from "./components/NavbarBottom";
+
+
+
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router> 
+    <Container>
+      <NavbarTop/>
+     
+      <Switch>
+        <Route exact path="/" component={CardSection}/>
+        <Route exact path="/notice/placements" component={()=><NoticeView link='placements'/>}/>
+        <Route exact path="/notice/achievements" component={()=><NoticeView link='achievements'/>}/>
+        <Route exact path="/notice/examinations" component={()=><NoticeView link='examinations'/>}/>
+        <Route exact path="/notice/scholarships" component={()=><NoticeView link='scholarships'/>}/>
+        <Route exact path="/notice/activities" component={()=><NoticeView link='activities'/>}/>
+        <Route exact path="/notice/other" component={()=><NoticeView link='other'/>}/>
+        <Route exact path="/add"><div style={{paddingTop:'100px'}}><a href="http://127.0.0.1:8000/admin/noticeboard/notice/">add</a></div></Route>
+
+        {/* <Route exact path="/subscribe" component={WhatsappForm}/> */}
+      </Switch>
+      <NavbarBottom/>
+    
+    </Container>
+
+    </Router>
+    
   );
 }
 

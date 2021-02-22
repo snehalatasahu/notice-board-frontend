@@ -1,38 +1,124 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;900&family=Vesper+Libre&display=swap');
+.navbar{
+  height: 80px;
+  /* box-shadow: 0 -10px 50px hsl(0, 0%, 90%); */
+  background: rgb(255, 255, 255);
+  position: fixed;
+  right: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 0vh;
+  z-index: 1;
+  /* margin-bottom: 3px; */
+  
+}
+
+.navbar-bottom{
+  height: 50px;
+  /* box-shadow: 0 -10px 50px hsl(0, 0%, 90%); */
+  background: rgb(255, 255, 255);
+  position: fixed;
+  bottom: 0vh;
+  right: 0px;
+  left: 0px;
+}
+.nav-link.active{
+  color: white !important;
+  background-color: #5b7ca3 !important;
+}
+
+
+.navbar-txt{
+  color: rgb(255, 255, 255);
+  font-size: 45px;
   text-align: center;
+  font-family: 'Vesper Libre', serif;
+  font-weight: 600;
+  margin-top: 5px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (max-width: 600px){
+  .navbar-txt{
+    font-size: 30px;
+    margin-top: 10px;
   }
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.homecard-img{
+  width: 250px;
 }
 
-.App-link {
-  color: #61dafb;
+.homecard{
+  text-align: center;
+  margin: 3vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.homecard:hover{
+  transform: scale(1.2);
+  box-shadow: 0 10px 50px hsl(0, 0%, 90%);
+  animation-name: homecard_big;
+  animation-duration: 0.5s;
+
+}
+
+@keyframes homecard_big{
+  from {transform: scale(1)}
+  to {transform: scale(1.2)}
+}
+
+.home-container{
+  /* width: 100% !important;
+  float:none !important; */
+  margin: 0vh;
+  padding: 0vh;
+}
+
+.homecard-section{
+  position: relative;
+  left: auto;
+  right: auto;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.homelink{
+  color: #2e2e2e;
+}
+
+.homelink:hover{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.notice-section{
+  position: relative;
+  left: auto;
+  right: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.whatsapp{
+  position: relative;
+  left: auto;
+  right: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+.whatsappicon {
+  height: 50px;
+  width: 50px;
+  padding-right: 10px;
+}
+
+.noticeForm{
+  position: relative;
+  left: auto;
+  right: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
 }
