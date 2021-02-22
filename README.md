@@ -16,5 +16,7 @@ This website will show notices category-wise which will make it clear and easy t
   3.1. SQLite
 
 ## Output Screens
-![Homepage](https://drive.google.com/file/d/1NbMhikGeU7KQ_tg-6gzQpv_vOZuCmVLM/view?usp=sharing)
-
+![Homepage](https://drive.google.com/uc?export=view&id=1NbMhikGeU7KQ_tg-6gzQpv_vOZuCmVLM)
+![Subscription Form](https://drive.google.com/uc?export=view&id=1ThHX6cv9Q-SJyBax6Yx97PwnfQgNS5QO)
+![All Notices](https://drive.google.com/uc?export=view&id=1I8eJv_AbikNMHdQ5it7vpZn_ClvZnN0n)
+![Django Admin Page](https://drive.google.com/uc?export=view&id=1jSGHUBOBnyJ0dIwreY6uQqo8bYEe9MXA)
